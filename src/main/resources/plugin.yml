@@ -1,0 +1,6 @@
+name: MCTournament
+version: '${project.version}'
+main: me.repayed.mctournament.MCTournament
+api-version: 1.16
+authors: [ Repayed ]
+description: An engine with minigames

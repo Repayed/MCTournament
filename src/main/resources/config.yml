@@ -1,0 +1,17 @@
+hub:
+  serialized-location: "world;-208.310;105.0;-252.784;90.7;2.2"
+
+spleef:
+  arenas:
+    0:
+      name: "Desert"
+      region:
+        first-bound:
+          serialized-location: "world;-4;10;5;120;360"
+        second-bound:
+          serialized-location: "world;-8;20;10;120;360"
+      spawn-locations:
+        0:
+          serialized-location: "world;-203.377;105.0;-250.036;-4.7;12.1"
+        1:
+          serialized-location: "world;-203.377;105.0;-250.036;-4.7;12.1"
