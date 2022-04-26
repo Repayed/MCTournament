@@ -32,15 +32,15 @@ public class Utility {
         return new Location(world, x, y ,z, yaw, pitch);
     }
 
-    public static List<? extends GamePlayer> getTopFivePlayers(List<? extends GamePlayer> list) {
+    public static GamePlayer[] getTopFivePlayers(List<? extends GamePlayer> list) {
         Collections.sort(list, Comparator.comparing(GamePlayer::getPoints));
-        final List<GamePlayer> sortedTopFiveList = new ArrayList<>();
+        final GamePlayer[] sortedTopFive = new GamePlayer[5];
 
         for(int i = 0; i < 5; i++) {
-            sortedTopFiveList.add(list.get(0));
+            sortedTopFive[i] = list.get(i);
         }
 
-        return sortedTopFiveList;
+        return sortedTopFive;
     }
 
     public static void setDefaultPlayer(Player player) {
